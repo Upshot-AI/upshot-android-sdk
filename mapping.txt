@@ -1,6 +1,6 @@
 # compiler: R8
 # compiler_version: 3.1.51
-# pg_map_id: 6c21db8
+# pg_map_id: 0fbda77
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"1.0"}
 com.brandkinesis.BKAbsActivity -> com.brandkinesis.BKAbsActivity:
@@ -285,6 +285,7 @@ com.brandkinesis.BKProperties$BKDeListingMessageType -> com.brandkinesis.BKPrope
     1:2:void <clinit>():443:444 -> <clinit>
     3:3:void <clinit>():442:442 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):448:449 -> <init>
+    1:1:com.brandkinesis.BKProperties$BKDeListingMessageType[] $values():442:442 -> a
     1:1:int getValue():453:453 -> getValue
     1:1:com.brandkinesis.BKProperties$BKDeListingMessageType valueOf(java.lang.String):442:442 -> valueOf
     1:1:com.brandkinesis.BKProperties$BKDeListingMessageType[] values():442:442 -> values
@@ -293,6 +294,7 @@ com.brandkinesis.BKProperties$BKEventSubType -> com.brandkinesis.BKProperties$BK
     1:201:void <clinit>():191:391 -> <clinit>
     202:202:void <clinit>():186:186 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):395:396 -> <init>
+    1:1:com.brandkinesis.BKProperties$BKEventSubType[] $values():186:186 -> a
     1:1:int getValue():400:400 -> getValue
     1:1:com.brandkinesis.BKProperties$BKEventSubType valueOf(java.lang.String):186:186 -> valueOf
     1:1:com.brandkinesis.BKProperties$BKEventSubType[] values():186:186 -> values
@@ -301,6 +303,7 @@ com.brandkinesis.BKProperties$BKEventType -> com.brandkinesis.BKProperties$BKEve
     1:41:void <clinit>():121:161 -> <clinit>
     42:42:void <clinit>():117:117 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):165:166 -> <init>
+    1:1:com.brandkinesis.BKProperties$BKEventType[] $values():117:117 -> a
     1:1:int getValue():170:170 -> getValue
     1:2:com.brandkinesis.BKProperties$BKEventType parse(int):174:175 -> parse
     1:1:com.brandkinesis.BKProperties$BKEventType valueOf(java.lang.String):117:117 -> valueOf
@@ -310,6 +313,7 @@ com.brandkinesis.BKProperties$BKInboxMessageType -> com.brandkinesis.BKPropertie
     1:3:void <clinit>():427:429 -> <clinit>
     4:4:void <clinit>():426:426 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):433:434 -> <init>
+    1:1:com.brandkinesis.BKProperties$BKInboxMessageType[] $values():426:426 -> a
     1:1:int getValue():438:438 -> getValue
     1:1:com.brandkinesis.BKProperties$BKInboxMessageType valueOf(java.lang.String):426:426 -> valueOf
     1:1:com.brandkinesis.BKProperties$BKInboxMessageType[] values():426:426 -> values
@@ -318,6 +322,7 @@ com.brandkinesis.BKProperties$BKPacketType -> com.brandkinesis.BKProperties$BKPa
     1:4:void <clinit>():91:94 -> <clinit>
     5:5:void <clinit>():90:90 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):98:99 -> <init>
+    1:1:com.brandkinesis.BKProperties$BKPacketType[] $values():90:90 -> a
     1:1:int getValue():103:103 -> getValue
     1:1:com.brandkinesis.BKProperties$BKPacketType valueOf(java.lang.String):90:90 -> valueOf
     1:1:com.brandkinesis.BKProperties$BKPacketType[] values():90:90 -> values
@@ -326,6 +331,7 @@ com.brandkinesis.BKProperties$BKPushExpiryType -> com.brandkinesis.BKProperties$
     1:2:void <clinit>():458:459 -> <clinit>
     3:3:void <clinit>():457:457 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):463:464 -> <init>
+    1:1:com.brandkinesis.BKProperties$BKPushExpiryType[] $values():457:457 -> a
     1:1:int getValue():468:468 -> getValue
     1:1:com.brandkinesis.BKProperties$BKPushExpiryType valueOf(java.lang.String):457:457 -> valueOf
     1:1:com.brandkinesis.BKProperties$BKPushExpiryType[] values():457:457 -> values
@@ -515,6 +521,7 @@ com.brandkinesis.BKUIPrefComponents$BKActivityButtonTypes -> com.brandkinesis.BK
     1:43:void <clinit>():270:312 -> <clinit>
     44:44:void <clinit>():265:265 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):317:318 -> <init>
+    1:1:com.brandkinesis.BKUIPrefComponents$BKActivityButtonTypes[] $values():265:265 -> a
     1:1:int getValue():322:322 -> getValue
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityButtonTypes valueOf(java.lang.String):265:265 -> valueOf
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityButtonTypes[] values():265:265 -> values
@@ -523,6 +530,7 @@ com.brandkinesis.BKUIPrefComponents$BKActivityColorTypes -> com.brandkinesis.BKU
     1:35:void <clinit>():588:622 -> <clinit>
     36:36:void <clinit>():584:584 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):626:627 -> <init>
+    1:1:com.brandkinesis.BKUIPrefComponents$BKActivityColorTypes[] $values():584:584 -> a
     1:1:int getValue():631:631 -> getValue
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityColorTypes valueOf(java.lang.String):584:584 -> valueOf
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityColorTypes[] values():584:584 -> values
@@ -531,6 +539,7 @@ com.brandkinesis.BKUIPrefComponents$BKActivityEditTextTypes -> com.brandkinesis.
     1:3:void <clinit>():224:226 -> <clinit>
     4:4:void <clinit>():220:220 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):230:231 -> <init>
+    1:1:com.brandkinesis.BKUIPrefComponents$BKActivityEditTextTypes[] $values():220:220 -> a
     1:1:int getValue():235:235 -> getValue
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityEditTextTypes valueOf(java.lang.String):220:220 -> valueOf
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityEditTextTypes[] values():220:220 -> values
@@ -539,6 +548,7 @@ com.brandkinesis.BKUIPrefComponents$BKActivityImageButtonTypes -> com.brandkines
     1:1:void <clinit>():247:247 -> <clinit>
     2:2:void <clinit>():243:243 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):251:252 -> <init>
+    1:1:com.brandkinesis.BKUIPrefComponents$BKActivityImageButtonTypes[] $values():243:243 -> a
     1:1:int getValue():256:256 -> getValue
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityImageButtonTypes valueOf(java.lang.String):243:243 -> valueOf
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityImageButtonTypes[] values():243:243 -> values
@@ -547,6 +557,7 @@ com.brandkinesis.BKUIPrefComponents$BKActivityImageViewType -> com.brandkinesis.
     1:23:void <clinit>():335:357 -> <clinit>
     24:24:void <clinit>():330:330 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):362:363 -> <init>
+    1:1:com.brandkinesis.BKUIPrefComponents$BKActivityImageViewType[] $values():330:330 -> a
     1:1:int getValue():367:367 -> getValue
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityImageViewType valueOf(java.lang.String):330:330 -> valueOf
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityImageViewType[] values():330:330 -> values
@@ -555,6 +566,7 @@ com.brandkinesis.BKUIPrefComponents$BKActivityLinearLayoutTypes -> com.brandkine
     1:2:void <clinit>():201:202 -> <clinit>
     3:3:void <clinit>():197:197 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):206:207 -> <init>
+    1:1:com.brandkinesis.BKUIPrefComponents$BKActivityLinearLayoutTypes[] $values():197:197 -> a
     1:1:int getValue():211:211 -> getValue
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityLinearLayoutTypes valueOf(java.lang.String):197:197 -> valueOf
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityLinearLayoutTypes[] values():197:197 -> values
@@ -563,6 +575,7 @@ com.brandkinesis.BKUIPrefComponents$BKActivityRatingTypes -> com.brandkinesis.BK
     1:6:void <clinit>():540:545 -> <clinit>
     7:7:void <clinit>():536:536 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):549:550 -> <init>
+    1:1:com.brandkinesis.BKUIPrefComponents$BKActivityRatingTypes[] $values():536:536 -> a
     1:1:int getValue():554:554 -> getValue
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityRatingTypes valueOf(java.lang.String):536:536 -> valueOf
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityRatingTypes[] values():536:536 -> values
@@ -571,6 +584,7 @@ com.brandkinesis.BKUIPrefComponents$BKActivityRelativeLayoutTypes -> com.brandki
     1:2:void <clinit>():179:180 -> <clinit>
     3:3:void <clinit>():175:175 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):184:185 -> <init>
+    1:1:com.brandkinesis.BKUIPrefComponents$BKActivityRelativeLayoutTypes[] $values():175:175 -> a
     1:1:int getValue():189:189 -> getValue
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityRelativeLayoutTypes valueOf(java.lang.String):175:175 -> valueOf
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityRelativeLayoutTypes[] values():175:175 -> values
@@ -579,6 +593,7 @@ com.brandkinesis.BKUIPrefComponents$BKActivitySeekBarTypes -> com.brandkinesis.B
     1:1:void <clinit>():566:566 -> <clinit>
     2:2:void <clinit>():562:562 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):571:572 -> <init>
+    1:1:com.brandkinesis.BKUIPrefComponents$BKActivitySeekBarTypes[] $values():562:562 -> a
     1:1:int getValue():576:576 -> getValue
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivitySeekBarTypes valueOf(java.lang.String):562:562 -> valueOf
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivitySeekBarTypes[] values():562:562 -> values
@@ -587,6 +602,7 @@ com.brandkinesis.BKUIPrefComponents$BKActivityTextViewTypes -> com.brandkinesis.
     1:139:void <clinit>():379:517 -> <clinit>
     140:140:void <clinit>():375:375 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):523:524 -> <init>
+    1:1:com.brandkinesis.BKUIPrefComponents$BKActivityTextViewTypes[] $values():375:375 -> a
     1:1:int getValue():528:528 -> getValue
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityTextViewTypes valueOf(java.lang.String):375:375 -> valueOf
     1:1:com.brandkinesis.BKUIPrefComponents$BKActivityTextViewTypes[] values():375:375 -> values
@@ -599,6 +615,7 @@ com.brandkinesis.BKUIPrefComponents$BKGraphType -> com.brandkinesis.BKUIPrefComp
     1:6:void <clinit>():640:645 -> <clinit>
     7:7:void <clinit>():635:635 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):649:650 -> <init>
+    1:1:com.brandkinesis.BKUIPrefComponents$BKGraphType[] $values():635:635 -> a
     1:1:int getValue():654:654 -> getValue
     1:1:com.brandkinesis.BKUIPrefComponents$BKGraphType valueOf(java.lang.String):635:635 -> valueOf
     1:1:com.brandkinesis.BKUIPrefComponents$BKGraphType[] values():635:635 -> values
@@ -619,6 +636,7 @@ com.brandkinesis.BKUIPrefComponents$BKViewType -> com.brandkinesis.BKUIPrefCompo
     1:3:void <clinit>():156:158 -> <clinit>
     4:4:void <clinit>():154:154 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):162:163 -> <init>
+    1:1:com.brandkinesis.BKUIPrefComponents$BKViewType[] $values():154:154 -> a
     1:1:int getValue():167:167 -> getValue
     1:1:com.brandkinesis.BKUIPrefComponents$BKViewType valueOf(java.lang.String):154:154 -> valueOf
     1:1:com.brandkinesis.BKUIPrefComponents$BKViewType[] values():154:154 -> values
@@ -777,7 +795,8 @@ com.brandkinesis.activity.ads.BKAdProperties$BKADActions -> com.brandkinesis.act
     1:7:void <clinit>():38:44 -> <clinit>
     8:8:void <clinit>():37:37 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):48:49 -> <init>
-    1:1:int getValue():53:53 -> a
+    1:1:com.brandkinesis.activity.ads.BKAdProperties$BKADActions[] $values():37:37 -> a
+    1:1:int getValue():53:53 -> b
     1:1:com.brandkinesis.activity.ads.BKAdProperties$BKADActions valueOf(java.lang.String):37:37 -> valueOf
     1:1:com.brandkinesis.activity.ads.BKAdProperties$BKADActions[] values():37:37 -> values
 com.brandkinesis.activity.ads.BKAdProperties$BKAdMediaType -> com.brandkinesis.activity.ads.c:
@@ -788,7 +807,8 @@ com.brandkinesis.activity.ads.BKAdProperties$BKAdMediaType -> com.brandkinesis.a
     1:2:void <clinit>():19:20 -> <clinit>
     3:3:void <clinit>():18:18 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):24:25 -> <init>
-    1:1:int getValue():29:29 -> a
+    1:1:com.brandkinesis.activity.ads.BKAdProperties$BKAdMediaType[] $values():18:18 -> a
+    1:1:int getValue():29:29 -> b
     1:1:com.brandkinesis.activity.ads.BKAdProperties$BKAdMediaType valueOf(java.lang.String):18:18 -> valueOf
     1:1:com.brandkinesis.activity.ads.BKAdProperties$BKAdMediaType[] values():18:18 -> values
 com.brandkinesis.activity.ads.BKAdRedirections -> com.brandkinesis.activity.ads.d:
@@ -1107,7 +1127,8 @@ com.brandkinesis.activity.customactivity.BKCustomActionSkipType -> com.brandkine
     1:3:void <clinit>():8:10 -> <clinit>
     4:4:void <clinit>():7:7 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):14:15 -> <init>
-    1:1:int getValue():19:19 -> a
+    1:1:com.brandkinesis.activity.customactivity.BKCustomActionSkipType[] $values():7:7 -> a
+    1:1:int getValue():19:19 -> b
     1:1:com.brandkinesis.activity.customactivity.BKCustomActionSkipType valueOf(java.lang.String):7:7 -> valueOf
     1:1:com.brandkinesis.activity.customactivity.BKCustomActionSkipType[] values():7:7 -> values
 com.brandkinesis.activity.customactivity.BKCustomActionUtils -> com.brandkinesis.activity.customactivity.b:
@@ -1135,29 +1156,29 @@ com.brandkinesis.activity.customactivity.BKCustomWebActivity -> com.brandkinesis
     4:4:java.util.HashMap access$802(com.brandkinesis.activity.customactivity.BKCustomWebActivity,java.util.HashMap):76:76 -> a
     5:5:void access$900(com.brandkinesis.activity.customactivity.BKCustomWebActivity,int,java.lang.String,java.lang.String):76:76 -> a
     6:14:int getWindowDimensions(boolean,android.content.Context):103:111 -> a
-    15:24:void callShareCode(int,java.lang.String,java.lang.String):353:362 -> a
-    25:38:void redirectionToShare(com.brandkinesis.activity.inappmessage.pojos.BKInAppMessageModel,com.brandkinesis.activity.inappmessage.pojos.BKInAppMessageSectionModel,java.lang.String,int):405:418 -> a
-    39:57:android.net.Uri getURIFromFile(android.content.Context,java.lang.String):427:445 -> a
-    58:58:android.net.Uri getURIFromFile(android.content.Context,java.lang.String):443:443 -> a
-    59:60:void parseShareData(java.lang.String):580:581 -> a
+    15:24:void callShareCode(int,java.lang.String,java.lang.String):365:374 -> a
+    25:38:void redirectionToShare(com.brandkinesis.activity.inappmessage.pojos.BKInAppMessageModel,com.brandkinesis.activity.inappmessage.pojos.BKInAppMessageSectionModel,java.lang.String,int):417:430 -> a
+    39:57:android.net.Uri getURIFromFile(android.content.Context,java.lang.String):439:457 -> a
+    58:58:android.net.Uri getURIFromFile(android.content.Context,java.lang.String):455:455 -> a
+    59:60:void parseShareData(java.lang.String):592:593 -> a
     1:1:android.widget.ImageButton access$100(com.brandkinesis.activity.customactivity.BKCustomWebActivity):76:76 -> b
-    2:6:void handleLandscapeForPopup(android.content.Context):157:161 -> b
-    7:22:java.io.File saveImage(android.content.Context,java.lang.String):372:387 -> b
+    2:6:void handleLandscapeForPopup(android.content.Context):169:173 -> b
+    7:22:java.io.File saveImage(android.content.Context,java.lang.String):384:399 -> b
     1:1:void access$500(com.brandkinesis.activity.customactivity.BKCustomWebActivity):76:76 -> c
     1:1:android.webkit.WebView access$600(com.brandkinesis.activity.customactivity.BKCustomWebActivity):76:76 -> d
-    2:40:android.widget.ImageButton closeButton():200:238 -> d
+    2:40:android.widget.ImageButton closeButton():212:250 -> d
     1:1:java.util.HashMap access$800(com.brandkinesis.activity.customactivity.BKCustomWebActivity):76:76 -> e
-    2:8:android.widget.RelativeLayout getCustomActionWebView():142:148 -> e
-    1:5:void initTasks():304:308 -> f
-    1:17:void initWebView():245:261 -> g
-    1:5:void sendInboxVariablesToJS():560:564 -> h
-    1:29:android.view.View webLayout():167:195 -> i
-    1:4:void onActivityResult(int,int,android.content.Intent):453:456 -> onActivityResult
-    1:22:void onCreate(android.os.Bundle):117:138 -> onCreate
-    23:24:void onCreate(android.os.Bundle):128:129 -> onCreate
-    1:4:void onDestroy():292:295 -> onDestroy
-    1:6:void onPause():266:271 -> onPause
-    1:8:void onStop():277:284 -> onStop
+    2:8:android.widget.RelativeLayout getCustomActionWebView():154:160 -> e
+    1:5:void initTasks():316:320 -> f
+    1:17:void initWebView():257:273 -> g
+    1:5:void sendInboxVariablesToJS():572:576 -> h
+    1:29:android.view.View webLayout():179:207 -> i
+    1:4:void onActivityResult(int,int,android.content.Intent):465:468 -> onActivityResult
+    1:28:void onCreate(android.os.Bundle):117:144 -> onCreate
+    29:30:void onCreate(android.os.Bundle):128:129 -> onCreate
+    1:4:void onDestroy():304:307 -> onDestroy
+    1:6:void onPause():278:283 -> onPause
+    1:8:void onStop():289:296 -> onStop
 com.brandkinesis.activity.customactivity.BKCustomWebActivity$1 -> com.brandkinesis.activity.customactivity.BKCustomWebActivity$a:
     com.brandkinesis.activity.customactivity.BKCustomWebActivity this$0 -> b
     1:1:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity):83:83 -> <init>
@@ -1168,46 +1189,46 @@ com.brandkinesis.activity.customactivity.BKCustomWebActivity$1$1 -> com.brandkin
     1:4:void run():89:92 -> run
 com.brandkinesis.activity.customactivity.BKCustomWebActivity$2 -> com.brandkinesis.activity.customactivity.BKCustomWebActivity$b:
     com.brandkinesis.activity.customactivity.BKCustomWebActivity this$0 -> b
-    1:1:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity):218:218 -> <init>
-    1:10:void onClick(android.view.View):222:231 -> onClick
+    1:1:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity):230:230 -> <init>
+    1:10:void onClick(android.view.View):234:243 -> onClick
 com.brandkinesis.activity.customactivity.BKCustomWebActivity$3 -> com.brandkinesis.activity.customactivity.BKCustomWebActivity$c:
     com.brandkinesis.activity.customactivity.BKCustomWebActivity this$0 -> a
-    1:1:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity):456:456 -> <init>
-    1:1:void onReceiveValue(java.lang.String):460:460 -> a
-    1:1:void onReceiveValue(java.lang.Object):456:456 -> onReceiveValue
+    1:1:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity):468:468 -> <init>
+    1:1:void onReceiveValue(java.lang.String):472:472 -> a
+    1:1:void onReceiveValue(java.lang.Object):468:468 -> onReceiveValue
 com.brandkinesis.activity.customactivity.BKCustomWebActivity$4 -> com.brandkinesis.activity.customactivity.BKCustomWebActivity$d:
     com.brandkinesis.activity.customactivity.BKCustomWebActivity this$0 -> a
-    1:1:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity):564:564 -> <init>
-    1:1:void onReceiveValue(java.lang.String):568:568 -> a
-    1:1:void onReceiveValue(java.lang.Object):564:564 -> onReceiveValue
+    1:1:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity):576:576 -> <init>
+    1:1:void onReceiveValue(java.lang.String):580:580 -> a
+    1:1:void onReceiveValue(java.lang.Object):576:576 -> onReceiveValue
 com.brandkinesis.activity.customactivity.BKCustomWebActivity$5 -> com.brandkinesis.activity.customactivity.BKCustomWebActivity$e:
     java.lang.String val$actionValue -> b
     com.brandkinesis.activity.customactivity.BKCustomWebActivity this$0 -> c
-    1:1:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity,java.lang.String):581:581 -> <init>
-    1:20:void run():586:605 -> run
+    1:1:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity,java.lang.String):593:593 -> <init>
+    1:20:void run():598:617 -> run
 com.brandkinesis.activity.customactivity.BKCustomWebActivity$AndroidHandler -> com.brandkinesis.activity.customactivity.BKCustomWebActivity$f:
     com.brandkinesis.activity.customactivity.BKCustomWebActivity this$0 -> b
     java.lang.String platform -> a
-    1:3:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity):471:473 -> <init>
-    4:4:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity,com.brandkinesis.activity.customactivity.BKCustomWebActivity$1):471:471 -> <init>
-    1:74:void performAction(java.lang.String):477:550 -> performAction
-    75:86:void performAction(java.lang.String):542:553 -> performAction
+    1:3:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity):483:485 -> <init>
+    4:4:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity,com.brandkinesis.activity.customactivity.BKCustomWebActivity$1):483:483 -> <init>
+    1:74:void performAction(java.lang.String):489:562 -> performAction
+    75:86:void performAction(java.lang.String):554:565 -> performAction
 com.brandkinesis.activity.customactivity.BKCustomWebActivity$AndroidHandler$1 -> com.brandkinesis.activity.customactivity.BKCustomWebActivity$f$a:
     com.brandkinesis.activity.customactivity.BKCustomWebActivity$AndroidHandler this$1 -> b
-    1:1:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity$AndroidHandler):506:506 -> <init>
-    1:1:void run():509:509 -> run
+    1:1:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity$AndroidHandler):518:518 -> <init>
+    1:1:void run():521:521 -> run
 com.brandkinesis.activity.customactivity.BKCustomWebActivity$CustomWebChromeClient -> com.brandkinesis.activity.customactivity.BKCustomWebActivity$g:
     com.brandkinesis.activity.customactivity.BKCustomWebActivity this$0 -> a
-    1:1:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity):311:311 -> <init>
-    2:2:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity,com.brandkinesis.activity.customactivity.BKCustomWebActivity$1):311:311 -> <init>
-    1:3:void onProgressChanged(android.webkit.WebView,int):315:317 -> onProgressChanged
+    1:1:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity):323:323 -> <init>
+    2:2:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity,com.brandkinesis.activity.customactivity.BKCustomWebActivity$1):323:323 -> <init>
+    1:3:void onProgressChanged(android.webkit.WebView,int):327:329 -> onProgressChanged
 com.brandkinesis.activity.customactivity.BKCustomWebActivity$CustomWebViewClient -> com.brandkinesis.activity.customactivity.BKCustomWebActivity$h:
     com.brandkinesis.activity.customactivity.BKCustomWebActivity this$0 -> a
-    1:1:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity):321:321 -> <init>
-    2:2:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity,com.brandkinesis.activity.customactivity.BKCustomWebActivity$1):321:321 -> <init>
-    1:1:void onPageFinished(android.webkit.WebView,java.lang.String):347:347 -> onPageFinished
-    1:1:void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap):342:342 -> onPageStarted
-    1:10:boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String):326:335 -> shouldOverrideUrlLoading
+    1:1:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity):333:333 -> <init>
+    2:2:void <init>(com.brandkinesis.activity.customactivity.BKCustomWebActivity,com.brandkinesis.activity.customactivity.BKCustomWebActivity$1):333:333 -> <init>
+    1:1:void onPageFinished(android.webkit.WebView,java.lang.String):359:359 -> onPageFinished
+    1:1:void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap):354:354 -> onPageStarted
+    1:10:boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String):338:347 -> shouldOverrideUrlLoading
 com.brandkinesis.activity.customactivity.pojo.BKCustomActionModel -> com.brandkinesis.activity.customactivity.pojo.a:
     java.lang.String htmlContents -> i
     int content_type -> h
@@ -1588,7 +1609,7 @@ com.brandkinesis.activity.minigames.BKMiniGamesWebActivity -> com.brandkinesis.a
     boolean mIsPageLoaded -> h
     com.brandkinesis.activity.minigames.pojo.BKMiniGamesActionModel miniGamesActionModel -> o
     android.widget.LinearLayout webLayout -> s
-    1:916:void <init>():92:1007 -> <init>
+    1:926:void <init>():92:1017 -> <init>
     1:1:boolean access$000(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> a
     2:2:boolean access$002(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity,boolean):92:92 -> a
     3:3:void access$1900(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity,org.json.JSONObject):92:92 -> a
@@ -1597,56 +1618,56 @@ com.brandkinesis.activity.minigames.BKMiniGamesWebActivity -> com.brandkinesis.a
     6:6:void access$2700(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity,boolean,int):92:92 -> a
     7:7:int access$902(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity,int):92:92 -> a
     8:16:int getWindowDimensions(boolean,android.content.Context):160:168 -> a
-    17:47:void updateResponeData(java.lang.Object):258:288 -> a
-    48:74:void internalEventData(java.lang.String):821:847 -> a
-    75:86:void createRespondedEventWithPayload(org.json.JSONObject):864:875 -> a
-    87:90:void closeMiniGame(boolean):880:883 -> a
-    91:99:void setTextProperties(java.lang.String,java.lang.String):967:975 -> a
-    100:100:void invokeSectorStatusJsFunc(boolean,int):1034:1034 -> a
+    17:47:void updateResponeData(java.lang.Object):271:301 -> a
+    48:74:void internalEventData(java.lang.String):831:857 -> a
+    75:86:void createRespondedEventWithPayload(org.json.JSONObject):874:885 -> a
+    87:90:void closeMiniGame(boolean):890:893 -> a
+    91:99:void setTextProperties(java.lang.String,java.lang.String):977:985 -> a
+    100:100:void invokeSectorStatusJsFunc(boolean,int):1044:1044 -> a
     1:1:com.brandkinesis.activity.minigames.pojo.BKMiniGamesActionModel access$100(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> b
     2:2:void access$1500(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity,boolean):92:92 -> b
     3:3:void access$2200(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity,java.lang.String):92:92 -> b
-    4:25:void getLatestResponses(android.content.Context):210:231 -> b
-    26:48:void getLatestResponses(android.content.Context):230:252 -> b
-    49:49:void limitCardLogic(boolean):1030:1030 -> b
+    4:25:void getLatestResponses(android.content.Context):223:244 -> b
+    26:48:void getLatestResponses(android.content.Context):243:265 -> b
+    49:49:void limitCardLogic(boolean):1040:1040 -> b
     1:1:boolean access$1000(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> c
     2:2:void access$1800(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity,boolean):92:92 -> c
     3:3:java.lang.String access$2502(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity,java.lang.String):92:92 -> c
-    4:4:void handleLandscapeForPopup(android.content.Context):425:425 -> c
-    5:5:void showProgressView(boolean):860:860 -> c
+    4:4:void handleLandscapeForPopup(android.content.Context):438:438 -> c
+    5:5:void showProgressView(boolean):870:870 -> c
     1:1:java.lang.Runnable access$1400(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> d
     2:2:void access$2600(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity,boolean):92:92 -> d
-    3:13:void addBGFromServer():381:391 -> d
+    3:13:void addBGFromServer():394:404 -> d
     1:1:void access$1600(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> e
-    2:28:android.view.View addProgressBarLayout():351:377 -> e
+    2:28:android.view.View addProgressBarLayout():364:390 -> e
     1:1:com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$MinigameActivityResponseCallback access$1700(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> f
-    2:27:void checkBadgeIsPresented():888:913 -> f
+    2:27:void checkBadgeIsPresented():898:923 -> f
     1:1:android.widget.ImageButton access$200(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> g
-    2:60:android.widget.ImageButton closeButton():468:526 -> g
+    2:60:android.widget.ImageButton closeButton():481:539 -> g
     1:1:java.lang.String access$2000(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> h
-    2:21:void closeMiniGameWithBadgeErrorDelay():985:1004 -> h
+    2:21:void closeMiniGameWithBadgeErrorDelay():995:1014 -> h
     void dismissCustomDialog() -> i
     1:1:java.util.HashMap access$2100(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> i
     1:1:void access$2300(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> j
-    2:3:void fetchUserBadges():921:922 -> j
+    2:3:void fetchUserBadges():931:932 -> j
     1:1:void access$2400(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> k
-    2:9:android.widget.RelativeLayout getCustomActionWebView():312:319 -> k
+    2:9:android.widget.RelativeLayout getCustomActionWebView():325:332 -> k
     1:1:java.lang.String access$2500(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> l
-    2:4:void getSectorsFromApiData():198:200 -> l
+    2:4:void getSectorsFromApiData():211:213 -> l
     1:1:void access$300(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> m
-    2:6:void initTasks():578:582 -> m
+    2:6:void initTasks():591:595 -> m
     1:1:android.widget.LinearLayout access$400(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> n
-    2:10:void initWebView():533:541 -> n
+    2:10:void initWebView():546:554 -> n
     1:1:int access$500(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> o
-    2:20:void startProgressThread():400:418 -> o
-    1:20:void onCreate(android.os.Bundle):174:193 -> onCreate
-    21:21:void onCreate(android.os.Bundle):184:184 -> onCreate
-    1:2:void onDestroy():570:571 -> onDestroy
-    1:8:void onPause():546:553 -> onPause
-    1:13:void onResume():326:338 -> onResume
-    1:11:void onStop():627:637 -> onStop
+    2:20:void startProgressThread():413:431 -> o
+    1:26:void onCreate(android.os.Bundle):174:199 -> onCreate
+    27:27:void onCreate(android.os.Bundle):184:184 -> onCreate
+    1:2:void onDestroy():583:584 -> onDestroy
+    1:8:void onPause():559:566 -> onPause
+    1:13:void onResume():339:351 -> onResume
+    1:11:void onStop():640:650 -> onStop
     1:1:int access$508(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> p
-    2:31:android.view.View webLayout():435:464 -> p
+    2:31:android.view.View webLayout():448:477 -> p
     1:1:android.widget.ProgressBar access$600(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> q
     1:1:android.os.Handler access$700(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> r
     1:1:android.webkit.WebView access$800(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):92:92 -> s
@@ -1661,33 +1682,33 @@ com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$1$1 -> com.brandkines
     1:6:void run():132:137 -> run
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$10 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$b:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity this$0 -> a
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):922:922 -> <init>
-    1:35:void onBadgesAvailable(java.util.HashMap):925:959 -> onBadgesAvailable
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):932:932 -> <init>
+    1:35:void onBadgesAvailable(java.util.HashMap):935:969 -> onBadgesAvailable
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$11 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$c:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity this$0 -> b
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):998:998 -> <init>
-    1:1:void run():1001:1001 -> run
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):1008:1008 -> <init>
+    1:1:void run():1011:1011 -> run
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$12 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$d:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity this$0 -> a
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):1007:1007 -> <init>
-    1:2:void activityResponseSuccess(boolean,java.lang.String):1011:1012 -> a
-    3:3:void activityResponseFail():1023:1023 -> a
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):1017:1017 -> <init>
+    1:2:void activityResponseSuccess(boolean,java.lang.String):1021:1022 -> a
+    3:3:void activityResponseFail():1033:1033 -> a
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$12$1 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$d$a:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$12 this$1 -> c
     boolean val$isLimitReached -> b
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$12,boolean):1012:1012 -> <init>
-    1:1:void run():1015:1015 -> run
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$12,boolean):1022:1022 -> <init>
+    1:1:void run():1025:1025 -> run
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$13 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$e:
     int val$type -> b
     boolean val$isLimitReached -> c
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity this$0 -> d
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity,int,boolean):1034:1034 -> <init>
-    1:11:void run():1037:1047 -> run
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity,int,boolean):1044:1044 -> <init>
+    1:11:void run():1047:1057 -> run
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$13$1 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$e$a:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$13 this$1 -> a
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$13):1047:1047 -> <init>
-    1:1:void onReceiveValue(java.lang.String):1051:1051 -> a
-    1:1:void onReceiveValue(java.lang.Object):1047:1047 -> onReceiveValue
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$13):1057:1057 -> <init>
+    1:1:void onReceiveValue(java.lang.String):1061:1061 -> a
+    1:1:void onReceiveValue(java.lang.Object):1057:1057 -> onReceiveValue
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$2 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$f:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity this$0 -> b
     1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):145:145 -> <init>
@@ -1698,94 +1719,94 @@ com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$2$1 -> com.brandkines
     1:2:void run():151:152 -> run
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$3 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$g:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity this$0 -> b
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):233:233 -> <init>
-    1:3:void onResponseReceived(int,java.lang.String,int,java.lang.Object,java.lang.String):238:240 -> a
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):246:246 -> <init>
+    1:3:void onResponseReceived(int,java.lang.String,int,java.lang.Object,java.lang.String):251:253 -> a
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$3$1 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$g$a:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$3 this$1 -> b
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$3):240:240 -> <init>
-    1:1:void run():243:243 -> run
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$3):253:253 -> <init>
+    1:1:void run():256:256 -> run
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$4 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$h:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity this$0 -> a
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):338:338 -> <init>
-    1:1:void onReceiveValue(java.lang.String):342:342 -> a
-    1:1:void onReceiveValue(java.lang.Object):338:338 -> onReceiveValue
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):351:351 -> <init>
+    1:1:void onReceiveValue(java.lang.String):355:355 -> a
+    1:1:void onReceiveValue(java.lang.Object):351:351 -> onReceiveValue
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$5 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$i:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity this$0 -> b
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):381:381 -> <init>
-    1:2:void onResourceReady(android.graphics.drawable.Drawable,com.bumptech.glide.request.transition.Transition):384:385 -> a
-    1:1:void onResourceReady(java.lang.Object,com.bumptech.glide.request.transition.Transition):381:381 -> onResourceReady
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):394:394 -> <init>
+    1:2:void onResourceReady(android.graphics.drawable.Drawable,com.bumptech.glide.request.transition.Transition):397:398 -> a
+    1:1:void onResourceReady(java.lang.Object,com.bumptech.glide.request.transition.Transition):394:394 -> onResourceReady
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$6 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$j:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity this$0 -> b
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):400:400 -> <init>
-    1:13:void run():403:415 -> run
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):413:413 -> <init>
+    1:13:void run():416:428 -> run
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$6$1 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$j$a:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$6 this$1 -> b
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$6):404:404 -> <init>
-    1:1:void run():407:407 -> run
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$6):417:417 -> <init>
+    1:1:void run():420:420 -> run
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$7 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$k:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity this$0 -> b
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):486:486 -> <init>
-    1:31:void onClick(android.view.View):489:519 -> onClick
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):499:499 -> <init>
+    1:31:void onClick(android.view.View):502:532 -> onClick
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$7$1 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$k$a:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$7 this$1 -> a
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$7):490:490 -> <init>
-    1:1:void onReceiveValue(java.lang.String):494:494 -> a
-    1:1:void onReceiveValue(java.lang.Object):490:490 -> onReceiveValue
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$7):503:503 -> <init>
+    1:1:void onReceiveValue(java.lang.String):507:507 -> a
+    1:1:void onReceiveValue(java.lang.Object):503:503 -> onReceiveValue
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$8 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$l:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity this$0 -> a
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):553:553 -> <init>
-    1:1:void onReceiveValue(java.lang.String):557:557 -> a
-    1:1:void onReceiveValue(java.lang.Object):553:553 -> onReceiveValue
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):566:566 -> <init>
+    1:1:void onReceiveValue(java.lang.String):570:570 -> a
+    1:1:void onReceiveValue(java.lang.Object):566:566 -> onReceiveValue
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$9 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$m:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity this$0 -> b
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):902:902 -> <init>
-    1:4:void onDbOperationCompleted(java.util.ArrayList,byte,int):905:908 -> a
-    5:5:void onDbOperationCompleted(java.util.ArrayList,byte,int):906:906 -> a
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):912:912 -> <init>
+    1:4:void onDbOperationCompleted(java.util.ArrayList,byte,int):915:918 -> a
+    5:5:void onDbOperationCompleted(java.util.ArrayList,byte,int):916:916 -> a
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$n:
     java.lang.String platform -> a
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity this$0 -> b
-    1:3:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):647:649 -> <init>
-    4:4:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity,com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$1):647:647 -> <init>
-    1:1:java.lang.String getPayload():653:653 -> getPayload
-    1:141:void performAction(java.lang.String):659:799 -> performAction
-    142:143:void performAction(java.lang.String):771:772 -> performAction
-    144:166:void performAction(java.lang.String):735:757 -> performAction
+    1:3:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):660:662 -> <init>
+    4:4:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity,com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$1):660:660 -> <init>
+    1:1:java.lang.String getPayload():666:666 -> getPayload
+    1:138:void performAction(java.lang.String):672:809 -> performAction
+    139:140:void performAction(java.lang.String):781:782 -> performAction
+    141:163:void performAction(java.lang.String):745:767 -> performAction
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler$1 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$n$a:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler this$1 -> b
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler):695:695 -> <init>
-    1:2:void run():698:699 -> run
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler):708:708 -> <init>
+    1:2:void run():711:712 -> run
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler$2 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$n$b:
-    com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler this$1 -> b
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler):737:737 -> <init>
-    1:1:void run():740:740 -> run
-com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler$3 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$n$c:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler this$1 -> b
     1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler):747:747 -> <init>
     1:1:void run():750:750 -> run
-com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler$4 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$n$d:
+com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler$3 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$n$c:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler this$1 -> b
     1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler):757:757 -> <init>
     1:1:void run():760:760 -> run
+com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler$4 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$n$d:
+    com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler this$1 -> b
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler):767:767 -> <init>
+    1:1:void run():770:770 -> run
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler$5 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$n$e:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler this$1 -> b
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler):784:784 -> <init>
-    1:1:void run():787:787 -> run
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler):794:794 -> <init>
+    1:1:void run():797:797 -> run
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler$6 -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$n$f:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler this$1 -> b
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler):799:799 -> <init>
-    1:2:void run():802:803 -> run
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$AndroidHandler):809:809 -> <init>
+    1:2:void run():812:813 -> run
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$CustomWebChromeClient -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$o:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity this$0 -> a
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):585:585 -> <init>
-    2:2:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity,com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$1):585:585 -> <init>
-    1:3:void onProgressChanged(android.webkit.WebView,int):589:591 -> onProgressChanged
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):598:598 -> <init>
+    2:2:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity,com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$1):598:598 -> <init>
+    1:3:void onProgressChanged(android.webkit.WebView,int):602:604 -> onProgressChanged
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$CustomWebViewClient -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$p:
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity this$0 -> a
-    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):595:595 -> <init>
-    2:2:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity,com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$1):595:595 -> <init>
-    1:1:void onPageFinished(android.webkit.WebView,java.lang.String):621:621 -> onPageFinished
-    1:1:void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap):616:616 -> onPageStarted
-    1:10:boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String):600:609 -> shouldOverrideUrlLoading
+    1:1:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity):608:608 -> <init>
+    2:2:void <init>(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity,com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$1):608:608 -> <init>
+    1:1:void onPageFinished(android.webkit.WebView,java.lang.String):634:634 -> onPageFinished
+    1:1:void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap):629:629 -> onPageStarted
+    1:10:boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String):613:622 -> shouldOverrideUrlLoading
 com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$MinigameActivityResponseCallback -> com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$q:
     void activityResponseFail() -> a
     void activityResponseSuccess(boolean,java.lang.String) -> a
@@ -1880,7 +1901,8 @@ com.brandkinesis.activity.opinionpoll.BKOpinionpollConstants$BKOpinionType -> co
     1:2:void <clinit>():23:24 -> <clinit>
     3:3:void <clinit>():22:22 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):28:29 -> <init>
-    1:1:int getValue():33:33 -> a
+    1:1:com.brandkinesis.activity.opinionpoll.BKOpinionpollConstants$BKOpinionType[] $values():22:22 -> a
+    1:1:int getValue():33:33 -> b
     1:1:com.brandkinesis.activity.opinionpoll.BKOpinionpollConstants$BKOpinionType valueOf(java.lang.String):22:22 -> valueOf
     1:1:com.brandkinesis.activity.opinionpoll.BKOpinionpollConstants$BKOpinionType[] values():22:22 -> values
 com.brandkinesis.activity.opinionpoll.Views.BKOpinionGraphView -> com.brandkinesis.activity.opinionpoll.Views.BKOpinionGraphView:
@@ -2623,6 +2645,7 @@ com.brandkinesis.activity.opinionpoll.charting.CombinedChart$DrawOrder -> com.br
     1:1:void <clinit>():209:209 -> <clinit>
     2:2:void <clinit>():208:208 -> <clinit>
     1:1:void <init>(java.lang.String,int):208:208 -> <init>
+    1:1:com.brandkinesis.activity.opinionpoll.charting.CombinedChart$DrawOrder[] $values():208:208 -> a
     1:1:com.brandkinesis.activity.opinionpoll.charting.CombinedChart$DrawOrder valueOf(java.lang.String):208:208 -> valueOf
     1:1:com.brandkinesis.activity.opinionpoll.charting.CombinedChart$DrawOrder[] values():208:208 -> values
 com.brandkinesis.activity.opinionpoll.charting.CombinedChartRenderer -> com.brandkinesis.activity.opinionpoll.charting.z:
@@ -2831,6 +2854,7 @@ com.brandkinesis.activity.opinionpoll.charting.Legend$LegendDirection -> com.bra
     1:1:void <clinit>():492:492 -> <clinit>
     2:2:void <clinit>():491:491 -> <clinit>
     1:1:void <init>(java.lang.String,int):491:491 -> <init>
+    1:1:com.brandkinesis.activity.opinionpoll.charting.Legend$LegendDirection[] $values():491:491 -> a
     1:1:com.brandkinesis.activity.opinionpoll.charting.Legend$LegendDirection valueOf(java.lang.String):491:491 -> valueOf
     1:1:com.brandkinesis.activity.opinionpoll.charting.Legend$LegendDirection[] values():491:491 -> values
 com.brandkinesis.activity.opinionpoll.charting.Legend$LegendForm -> com.brandkinesis.activity.opinionpoll.charting.k0$b:
@@ -2841,6 +2865,7 @@ com.brandkinesis.activity.opinionpoll.charting.Legend$LegendForm -> com.brandkin
     1:1:void <clinit>():488:488 -> <clinit>
     2:2:void <clinit>():487:487 -> <clinit>
     1:1:void <init>(java.lang.String,int):487:487 -> <init>
+    1:1:com.brandkinesis.activity.opinionpoll.charting.Legend$LegendForm[] $values():487:487 -> a
     1:1:com.brandkinesis.activity.opinionpoll.charting.Legend$LegendForm valueOf(java.lang.String):487:487 -> valueOf
     1:1:com.brandkinesis.activity.opinionpoll.charting.Legend$LegendForm[] values():487:487 -> values
 com.brandkinesis.activity.opinionpoll.charting.Legend$LegendPosition -> com.brandkinesis.activity.opinionpoll.charting.k0$c:
@@ -2858,6 +2883,7 @@ com.brandkinesis.activity.opinionpoll.charting.Legend$LegendPosition -> com.bran
     1:4:void <clinit>():481:484 -> <clinit>
     5:5:void <clinit>():480:480 -> <clinit>
     1:1:void <init>(java.lang.String,int):480:480 -> <init>
+    1:1:com.brandkinesis.activity.opinionpoll.charting.Legend$LegendPosition[] $values():480:480 -> a
     1:1:com.brandkinesis.activity.opinionpoll.charting.Legend$LegendPosition valueOf(java.lang.String):480:480 -> valueOf
     1:1:com.brandkinesis.activity.opinionpoll.charting.Legend$LegendPosition[] values():480:480 -> values
 com.brandkinesis.activity.opinionpoll.charting.LegendRenderer -> com.brandkinesis.activity.opinionpoll.charting.l0:
@@ -2907,6 +2933,7 @@ com.brandkinesis.activity.opinionpoll.charting.LimitLine$LimitLabelPosition -> c
     1:1:void <clinit>():246:246 -> <clinit>
     2:2:void <clinit>():245:245 -> <clinit>
     1:1:void <init>(java.lang.String,int):245:245 -> <init>
+    1:1:com.brandkinesis.activity.opinionpoll.charting.LimitLine$LimitLabelPosition[] $values():245:245 -> a
     1:1:com.brandkinesis.activity.opinionpoll.charting.LimitLine$LimitLabelPosition valueOf(java.lang.String):245:245 -> valueOf
     1:1:com.brandkinesis.activity.opinionpoll.charting.LimitLine$LimitLabelPosition[] values():245:245 -> values
 com.brandkinesis.activity.opinionpoll.charting.LineBuffer -> com.brandkinesis.activity.opinionpoll.charting.n0:
@@ -3245,6 +3272,7 @@ com.brandkinesis.activity.opinionpoll.charting.ScatterChart$ScatterShape -> com.
     1:1:void <clinit>():79:79 -> <clinit>
     2:2:void <clinit>():78:78 -> <clinit>
     1:1:void <init>(java.lang.String,int):78:78 -> <init>
+    1:1:com.brandkinesis.activity.opinionpoll.charting.ScatterChart$ScatterShape[] $values():78:78 -> a
     1:1:com.brandkinesis.activity.opinionpoll.charting.ScatterChart$ScatterShape valueOf(java.lang.String):78:78 -> valueOf
     1:1:com.brandkinesis.activity.opinionpoll.charting.ScatterChart$ScatterShape[] values():78:78 -> values
 com.brandkinesis.activity.opinionpoll.charting.ScatterChartRenderer -> com.brandkinesis.activity.opinionpoll.charting.g1:
@@ -3406,6 +3434,7 @@ com.brandkinesis.activity.opinionpoll.charting.XAxis$XAxisPosition -> com.brandk
     1:1:void <clinit>():177:177 -> <clinit>
     2:2:void <clinit>():176:176 -> <clinit>
     1:1:void <init>(java.lang.String,int):176:176 -> <init>
+    1:1:com.brandkinesis.activity.opinionpoll.charting.XAxis$XAxisPosition[] $values():176:176 -> a
     1:1:com.brandkinesis.activity.opinionpoll.charting.XAxis$XAxisPosition valueOf(java.lang.String):176:176 -> valueOf
     1:1:com.brandkinesis.activity.opinionpoll.charting.XAxis$XAxisPosition[] values():176:176 -> values
 com.brandkinesis.activity.opinionpoll.charting.XAxisRenderer -> com.brandkinesis.activity.opinionpoll.charting.r1:
@@ -3496,6 +3525,7 @@ com.brandkinesis.activity.opinionpoll.charting.YAxis$AxisDependency -> com.brand
     1:1:void <clinit>():459:459 -> <clinit>
     2:2:void <clinit>():458:458 -> <clinit>
     1:1:void <init>(java.lang.String,int):458:458 -> <init>
+    1:1:com.brandkinesis.activity.opinionpoll.charting.YAxis$AxisDependency[] $values():458:458 -> a
     1:1:com.brandkinesis.activity.opinionpoll.charting.YAxis$AxisDependency valueOf(java.lang.String):458:458 -> valueOf
     1:1:com.brandkinesis.activity.opinionpoll.charting.YAxis$AxisDependency[] values():458:458 -> values
 com.brandkinesis.activity.opinionpoll.charting.YAxis$YAxisLabelPosition -> com.brandkinesis.activity.opinionpoll.charting.v1$b:
@@ -3505,6 +3535,7 @@ com.brandkinesis.activity.opinionpoll.charting.YAxis$YAxisLabelPosition -> com.b
     1:1:void <clinit>():449:449 -> <clinit>
     2:2:void <clinit>():448:448 -> <clinit>
     1:1:void <init>(java.lang.String,int):448:448 -> <init>
+    1:1:com.brandkinesis.activity.opinionpoll.charting.YAxis$YAxisLabelPosition[] $values():448:448 -> a
     1:1:com.brandkinesis.activity.opinionpoll.charting.YAxis$YAxisLabelPosition valueOf(java.lang.String):448:448 -> valueOf
     1:1:com.brandkinesis.activity.opinionpoll.charting.YAxis$YAxisLabelPosition[] values():448:448 -> values
 com.brandkinesis.activity.opinionpoll.charting.YAxisRenderer -> com.brandkinesis.activity.opinionpoll.charting.w1:
@@ -3646,8 +3677,9 @@ com.brandkinesis.activity.ratings.BKRatingConstants$BKRatingType -> com.brandkin
     1:4:void <clinit>():18:21 -> <clinit>
     5:5:void <clinit>():17:17 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):26:27 -> <init>
-    1:2:com.brandkinesis.activity.ratings.BKRatingConstants$BKRatingType getRatingTypeByValue(int):31:32 -> a
-    3:3:int getValue():38:38 -> a
+    1:1:com.brandkinesis.activity.ratings.BKRatingConstants$BKRatingType[] $values():17:17 -> a
+    2:3:com.brandkinesis.activity.ratings.BKRatingConstants$BKRatingType getRatingTypeByValue(int):31:32 -> a
+    1:1:int getValue():38:38 -> b
     1:1:com.brandkinesis.activity.ratings.BKRatingConstants$BKRatingType valueOf(java.lang.String):17:17 -> valueOf
     1:1:com.brandkinesis.activity.ratings.BKRatingConstants$BKRatingType[] values():17:17 -> values
 com.brandkinesis.activity.ratings.BKRatingConstants$BKRatingTypeValue -> com.brandkinesis.activity.ratings.c:
@@ -3659,7 +3691,8 @@ com.brandkinesis.activity.ratings.BKRatingConstants$BKRatingTypeValue -> com.bra
     1:3:void <clinit>():47:49 -> <clinit>
     4:4:void <clinit>():46:46 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):52:53 -> <init>
-    1:1:int getValue():57:57 -> a
+    1:1:com.brandkinesis.activity.ratings.BKRatingConstants$BKRatingTypeValue[] $values():46:46 -> a
+    1:1:int getValue():57:57 -> b
     1:1:com.brandkinesis.activity.ratings.BKRatingConstants$BKRatingTypeValue valueOf(java.lang.String):46:46 -> valueOf
     1:1:com.brandkinesis.activity.ratings.BKRatingConstants$BKRatingTypeValue[] values():46:46 -> values
 com.brandkinesis.activity.ratings.BKRatingFeedbackListener -> com.brandkinesis.activity.ratings.d:
@@ -4266,7 +4299,8 @@ com.brandkinesis.activity.survey.BKSurveyTypes$QuestionTypes -> com.brandkinesis
     1:16:void <clinit>():19:34 -> <clinit>
     17:17:void <clinit>():18:18 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):38:39 -> <init>
-    1:1:int getValue():50:50 -> a
+    1:1:com.brandkinesis.activity.survey.BKSurveyTypes$QuestionTypes[] $values():18:18 -> a
+    1:1:int getValue():50:50 -> b
     1:1:com.brandkinesis.activity.survey.BKSurveyTypes$QuestionTypes valueOf(java.lang.String):18:18 -> valueOf
     1:1:com.brandkinesis.activity.survey.BKSurveyTypes$QuestionTypes[] values():18:18 -> values
 com.brandkinesis.activity.survey.BKSurveyTypes$SurveyOrientation -> com.brandkinesis.activity.survey.d:
@@ -4276,6 +4310,7 @@ com.brandkinesis.activity.survey.BKSurveyTypes$SurveyOrientation -> com.brandkin
     1:3:void <clinit>():59:61 -> <clinit>
     4:4:void <clinit>():58:58 -> <clinit>
     1:1:void <init>(java.lang.String,int):58:58 -> <init>
+    1:1:com.brandkinesis.activity.survey.BKSurveyTypes$SurveyOrientation[] $values():58:58 -> a
     1:1:com.brandkinesis.activity.survey.BKSurveyTypes$SurveyOrientation valueOf(java.lang.String):58:58 -> valueOf
     1:1:com.brandkinesis.activity.survey.BKSurveyTypes$SurveyOrientation[] values():58:58 -> values
 com.brandkinesis.activity.survey.BKSurveyUtils -> com.brandkinesis.activity.survey.e:
@@ -5105,7 +5140,8 @@ com.brandkinesis.activity.trivia.BKTriviaTypes$LeaderBoardTypes -> com.brandkine
     1:4:void <clinit>():49:52 -> <clinit>
     5:5:void <clinit>():48:48 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):56:57 -> <init>
-    1:1:int getValue():61:61 -> a
+    1:1:com.brandkinesis.activity.trivia.BKTriviaTypes$LeaderBoardTypes[] $values():48:48 -> a
+    1:1:int getValue():61:61 -> b
     1:1:com.brandkinesis.activity.trivia.BKTriviaTypes$LeaderBoardTypes valueOf(java.lang.String):48:48 -> valueOf
     1:1:com.brandkinesis.activity.trivia.BKTriviaTypes$LeaderBoardTypes[] values():48:48 -> values
 com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes -> com.brandkinesis.activity.trivia.b:
@@ -5118,8 +5154,9 @@ com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes -> com.brandkinesis
     1:4:void <clinit>():24:27 -> <clinit>
     5:5:void <clinit>():18:18 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):31:32 -> <init>
-    1:2:java.lang.String getQuestionTypeByValue(int):36:37 -> a
-    3:3:int getValue():43:43 -> a
+    1:1:com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes[] $values():18:18 -> a
+    2:3:java.lang.String getQuestionTypeByValue(int):36:37 -> a
+    1:1:int getValue():43:43 -> b
     1:1:com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes valueOf(java.lang.String):18:18 -> valueOf
     1:1:com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes[] values():18:18 -> values
 com.brandkinesis.activity.trivia.BKTriviaUtils -> com.brandkinesis.activity.trivia.c:
@@ -5931,6 +5968,7 @@ com.brandkinesis.activity.tutorials.BKTutorialTypes$TutorialButtonTypes -> com.b
     1:3:void <clinit>():25:27 -> <clinit>
     4:4:void <clinit>():24:24 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):31:32 -> <init>
+    1:1:com.brandkinesis.activity.tutorials.BKTutorialTypes$TutorialButtonTypes[] $values():24:24 -> a
     1:1:com.brandkinesis.activity.tutorials.BKTutorialTypes$TutorialButtonTypes valueOf(java.lang.String):24:24 -> valueOf
     1:1:com.brandkinesis.activity.tutorials.BKTutorialTypes$TutorialButtonTypes[] values():24:24 -> values
 com.brandkinesis.activity.tutorials.BKTutorialUnit -> com.brandkinesis.activity.tutorials.g:
@@ -6249,6 +6287,7 @@ com.brandkinesis.activity.tutorials.coachmarks.pojo.BKScrollType$ScrollType -> c
     1:4:void <clinit>():24:27 -> <clinit>
     5:5:void <clinit>():23:23 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):29:30 -> <init>
+    1:1:com.brandkinesis.activity.tutorials.coachmarks.pojo.BKScrollType$ScrollType[] $values():23:23 -> a
     1:1:com.brandkinesis.activity.tutorials.coachmarks.pojo.BKScrollType$ScrollType valueOf(java.lang.String):23:23 -> valueOf
     1:1:com.brandkinesis.activity.tutorials.coachmarks.pojo.BKScrollType$ScrollType[] values():23:23 -> values
 com.brandkinesis.activity.tutorials.coachmarks.pojo.BKToolTipPOJO -> com.brandkinesis.activity.tutorials.coachmarks.pojo.g:
@@ -6933,6 +6972,7 @@ com.brandkinesis.activitymanager.BKActivityTypes -> com.brandkinesis.activityman
     1:14:void <clinit>():7:20 -> <clinit>
     15:15:void <clinit>():6:6 -> <clinit>
     1:2:void <init>(java.lang.String,int,int):24:25 -> <init>
+    1:1:com.brandkinesis.activitymanager.BKActivityTypes[] $values():6:6 -> a
     1:1:int getValue():29:29 -> getValue
     1:3:com.brandkinesis.activitymanager.BKActivityTypes parse(int):38:40 -> parse
     1:10:java.lang.String toString(int):48:57 -> toString
@@ -7297,31 +7337,33 @@ com.brandkinesis.apirequests.BKActivityResponseHandler -> com.brandkinesis.apire
     com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$MinigameActivityResponseCallback minigameActivityResponseCallback -> d
     com.brandkinesis.database.operations.BKActivityDBOperations dbOPT -> c
     boolean limitCard -> e
-    1:1:void <init>(android.content.Context):64:64 -> <init>
-    2:13:void <init>(android.content.Context):54:65 -> <init>
+    1:1:void <init>(android.content.Context):65:65 -> <init>
+    2:13:void <init>(android.content.Context):55:66 -> <init>
     void onResponseReceived(int,java.lang.String,int,java.lang.Object,java.lang.String) -> a
-    1:1:com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$MinigameActivityResponseCallback access$000(com.brandkinesis.apirequests.BKActivityResponseHandler):49:49 -> a
-    2:2:com.brandkinesis.database.operations.BKActivityDBOperations access$202(com.brandkinesis.apirequests.BKActivityResponseHandler,com.brandkinesis.database.operations.BKActivityDBOperations):49:49 -> a
-    3:39:void sendData(org.json.JSONObject,com.brandkinesis.BKProperties$BKEventSubType):92:128 -> a
-    40:55:java.util.HashMap getActivityDetails(org.json.JSONObject):142:157 -> a
-    56:147:void uploadActivity(org.json.JSONObject,java.lang.String,java.lang.Integer):172:263 -> a
-    148:151:void uploadActivity(org.json.JSONObject,java.lang.String,java.lang.Integer):257:260 -> a
-    152:153:void getPendingActivityResponsesFromDB():274:275 -> a
-    154:154:void onDbOperationCompleted(java.util.ArrayList,byte,int):302:302 -> a
-    155:167:void onDbOperationCompleted(java.util.ArrayList,byte,int):283:295 -> a
-    168:168:void setMinigameResponseCallback(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$MinigameActivityResponseCallback):315:315 -> a
-    169:169:void setLimitCard(boolean):319:319 -> a
-    1:1:android.content.Context access$100(com.brandkinesis.apirequests.BKActivityResponseHandler):49:49 -> b
-    2:7:void sendData(org.json.JSONObject):76:81 -> b
-    1:1:com.brandkinesis.database.operations.BKActivityDBOperations access$200(com.brandkinesis.apirequests.BKActivityResponseHandler):49:49 -> c
+    1:1:com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$MinigameActivityResponseCallback access$000(com.brandkinesis.apirequests.BKActivityResponseHandler):50:50 -> a
+    2:2:void access$100(com.brandkinesis.apirequests.BKActivityResponseHandler,java.lang.Object,org.json.JSONObject,java.lang.Integer,com.brandkinesis.database.BKDBOperationCompleteListener):50:50 -> a
+    3:3:com.brandkinesis.database.operations.BKActivityDBOperations access$202(com.brandkinesis.apirequests.BKActivityResponseHandler,com.brandkinesis.database.operations.BKActivityDBOperations):50:50 -> a
+    4:40:void sendData(org.json.JSONObject,com.brandkinesis.BKProperties$BKEventSubType):93:129 -> a
+    41:56:java.util.HashMap getActivityDetails(org.json.JSONObject):143:158 -> a
+    57:140:void uploadActivity(org.json.JSONObject,java.lang.String,java.lang.Integer):173:256 -> a
+    141:144:void uploadActivity(org.json.JSONObject,java.lang.String,java.lang.Integer):250:253 -> a
+    145:164:void createRespondedEventFromResponse(java.lang.Object,org.json.JSONObject,java.lang.Integer,com.brandkinesis.database.BKDBOperationCompleteListener):264:283 -> a
+    165:166:void getPendingActivityResponsesFromDB():292:293 -> a
+    167:167:void onDbOperationCompleted(java.util.ArrayList,byte,int):320:320 -> a
+    168:180:void onDbOperationCompleted(java.util.ArrayList,byte,int):301:313 -> a
+    181:181:void setMinigameResponseCallback(com.brandkinesis.activity.minigames.BKMiniGamesWebActivity$MinigameActivityResponseCallback):333:333 -> a
+    182:182:void setLimitCard(boolean):337:337 -> a
+    1:1:com.brandkinesis.database.operations.BKActivityDBOperations access$200(com.brandkinesis.apirequests.BKActivityResponseHandler):50:50 -> b
+    2:7:void sendData(org.json.JSONObject):77:82 -> b
+    1:1:android.content.Context access$300(com.brandkinesis.apirequests.BKActivityResponseHandler):50:50 -> c
 com.brandkinesis.apirequests.BKActivityResponseHandler$1 -> com.brandkinesis.apirequests.b$a:
     org.json.JSONObject val$activityResponse -> b
     java.lang.Integer val$rowId -> c
     com.brandkinesis.database.BKDBOperationCompleteListener val$dbListener -> d
     com.brandkinesis.apirequests.BKActivityResponseHandler this$0 -> f
     java.lang.String val$sessionID -> e
-    1:1:void <init>(com.brandkinesis.apirequests.BKActivityResponseHandler,org.json.JSONObject,java.lang.Integer,com.brandkinesis.database.BKDBOperationCompleteListener,java.lang.String):192:192 -> <init>
-    1:51:void onResponseReceived(int,java.lang.String,int,java.lang.Object,java.lang.String):198:248 -> a
+    1:1:void <init>(com.brandkinesis.apirequests.BKActivityResponseHandler,org.json.JSONObject,java.lang.Integer,com.brandkinesis.database.BKDBOperationCompleteListener,java.lang.String):193:193 -> <init>
+    1:43:void onResponseReceived(int,java.lang.String,int,java.lang.Object,java.lang.String):199:241 -> a
 com.brandkinesis.apirequests.BKApis -> com.brandkinesis.apirequests.c:
     java.lang.String BK_SEND_PUSH_DETAILS -> a
     java.lang.String BK_PUSH_AMPLIFICATION_API -> c
@@ -9623,6 +9665,7 @@ com.brandkinesis.utils.BKScrollTask$Direction -> com.brandkinesis.utils.l$b:
     1:4:void <clinit>():15:18 -> <clinit>
     5:5:void <clinit>():14:14 -> <clinit>
     1:1:void <init>(java.lang.String,int):14:14 -> <init>
+    1:1:com.brandkinesis.utils.BKScrollTask$Direction[] $values():14:14 -> a
     1:1:com.brandkinesis.utils.BKScrollTask$Direction valueOf(java.lang.String):14:14 -> valueOf
     1:1:com.brandkinesis.utils.BKScrollTask$Direction[] values():14:14 -> values
 com.brandkinesis.utils.BKScrollUtil -> com.brandkinesis.utils.m:
