@@ -1,6 +1,6 @@
 # compiler: R8
 # compiler_version: 3.1.51
-# pg_map_id: 0fbda77
+# pg_map_id: bd7c667
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"1.0"}
 com.brandkinesis.BKAbsActivity -> com.brandkinesis.BKAbsActivity:
@@ -6703,7 +6703,7 @@ com.brandkinesis.activity.visualinbox.adapter.BKVisualInboxMessagesAdapter$BKNot
     1:78:void bind(com.brandkinesis.activity.visualinbox.pojos.BKVisualInboxMessagesBean,int):353:430 -> a
     79:115:void bind(com.brandkinesis.activity.visualinbox.pojos.BKVisualInboxMessagesBean,int):371:407 -> a
     116:121:void bind(com.brandkinesis.activity.visualinbox.pojos.BKVisualInboxMessagesBean,int):372:377 -> a
-    122:218:void bind(com.brandkinesis.activity.visualinbox.pojos.BKVisualInboxMessagesBean,int):374:470 -> a
+    122:221:void bind(com.brandkinesis.activity.visualinbox.pojos.BKVisualInboxMessagesBean,int):374:473 -> a
     1:12:void onClick(android.view.View):336:347 -> onClick
 com.brandkinesis.activity.visualinbox.adapter.BKVisualInboxMessagesAdapter$BKNotificationViewHolder$1 -> com.brandkinesis.activity.visualinbox.adapter.a$b$a:
     com.brandkinesis.activity.visualinbox.pojos.BKVisualNotificationBean val$bkVisualNotificationBean -> b
